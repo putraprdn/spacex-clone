@@ -21,7 +21,7 @@ _Currently in progress_
 
 ### Screenshot
 
-![](https://github.com/putraprdn/spacex-clone/blob/master/assets/SpaceX%20Design.png?raw=true)
+![](https://github.com/putraprdn/spacex-clone/blob/master/assets/images/SpaceX%20Design.png?raw=true)
 
 ### Links
 
