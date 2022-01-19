@@ -105,14 +105,69 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-    row-gap: 3rem;
+	row-gap: 3rem;
 	padding: 6.25rem 0 6rem;
-	background-image: url(/assets/images/starlink.webp);
 	background-size: cover;
+	background-repeat: no-repeat;
 }
+
+/* 
+*---------------- Starlink */
+.content:nth-child(1) {
+	background-image: url(/assets/images/starlink.webp);
+}
+
+/* 
+*-------------------- Transporter */
+.content:nth-child(2) {
+	background-image: url(/assets/images/transport.webp);
+	row-gap: 2rem;
+}
+.content:nth-child(2) .content__button-wrap {
+	padding: 1rem 3rem;
+}
+
+/* 
+*------------------ CRS-24 */
+.content:nth-child(3) {
+	background-image: url(/assets/images/crs24.webp);
+	row-gap: 1.5rem;
+}
+.content:nth-child(3) .content__button-wrap {
+	padding: 1rem 2.55rem;
+}
+/*
+
+/* 
+* ------------------ IXPE */
+.content:nth-child(4) {
+	background-image: url(/assets/images/ixpe.webp);
+	row-gap: 2.5rem;
+}
+.content:nth-child(4) .content__button-wrap {
+    padding: 1rem 3rem;
+}
+.content:nth-child(4) .content__title,
+.content:nth-child(5) .content__title {
+    white-space: pre-line;
+}
+
+/* 
+* ------------------ NASA */
+.content:nth-child(5) {
+    background-image: url(/assets/images/nasa.webp);
+    row-gap: 2rem;
+}
+.content:nth-child(5) .content__button-wrap {
+	padding: 1rem 3rem;
+}
+
 .content__title {
 	font-size: 3rem;
 	letter-spacing: -2.5px;
+	text-shadow: 0 0 2px #555;
+    line-height: 3rem;
+    font-weight: 400;
 }
 .content__subtitle {
 	font-size: 1.25rem;
