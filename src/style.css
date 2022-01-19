@@ -36,15 +36,15 @@ select {
 *------------ Font Face */
 @font-face {
 	font-family: "DINBold";
-	src: url(/assets/fonts/DINBold.ttf);
+	src: url(../assets/fonts/DINBold.ttf);
 }
 @font-face {
 	font-family: "DINMedium";
-	src: url(/assets/fonts/DINMedium.ttf);
+	src: url(../assets/fonts/DINMedium.ttf);
 }
 @font-face {
 	font-family: "DINRegular";
-	src: url(/assets/fonts/DINRegular.ttf);
+	src: url(../assets/fonts/DINRegular.ttf);
 }
 
 /* 
@@ -114,13 +114,13 @@ a {
 /* 
 *---------------- Starlink */
 .content:nth-child(1) {
-	background-image: url(/assets/images/starlink.webp);
+	background-image: url(../assets/images/starlink.webp);
 }
 
 /* 
 *-------------------- Transporter */
 .content:nth-child(2) {
-	background-image: url(/assets/images/transport.webp);
+	background-image: url(../assets/images/transport.webp);
 	row-gap: 2rem;
 }
 .content:nth-child(2) .content__button-wrap {
@@ -130,7 +130,7 @@ a {
 /* 
 *------------------ CRS-24 */
 .content:nth-child(3) {
-	background-image: url(/assets/images/crs24.webp);
+	background-image: url(../assets/images/crs24.webp);
 	row-gap: 1.5rem;
 }
 .content:nth-child(3) .content__button-wrap {
@@ -141,7 +141,7 @@ a {
 /* 
 * ------------------ IXPE */
 .content:nth-child(4) {
-	background-image: url(/assets/images/ixpe.webp);
+	background-image: url(../assets/images/ixpe.webp);
 	row-gap: 2.5rem;
 }
 .content:nth-child(4) .content__button-wrap {
@@ -155,7 +155,7 @@ a {
 /* 
 * ------------------ NASA */
 .content:nth-child(5) {
-    background-image: url(/assets/images/nasa.webp);
+    background-image: url(../assets/images/nasa.webp);
     row-gap: 2rem;
 }
 .content:nth-child(5) .content__button-wrap {
