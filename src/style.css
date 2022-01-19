@@ -3,10 +3,10 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 body,
 h1,
@@ -18,18 +18,18 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+	margin: 0;
 }
 img,
 picture {
-  max-width: 100%;
-  display: block;
+	max-width: 100%;
+	display: block;
 }
 input,
 button,
 textarea,
 select {
-  font: inherit;
+	font: inherit;
 }
 
 /* 
@@ -50,7 +50,54 @@ select {
 /* 
 * ----------------- Main CSS */
 body {
-    min-height: 100vh;
+	/* min-height: 100vh; */
+	background-color: #000;
+	color: #fff;
+	font-family: "DINBold";
+	text-transform: uppercase;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	padding-left: 3rem !important;
+	padding-right: 3rem !important;
+}
+
+.nav {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	font-size: 0.85rem;
+	height: 6.25rem;
+	width: 100vw;
+}
+.nav__image-link {
+	padding-bottom: 12px;
+}
+.nav__image {
+	width: 13rem;
+}
+.nav__center {
+	margin-left: 2.5rem;
+	flex-basis: content;
+}
+.nav__right {
+	display: flex;
+	flex-grow: 1;
+	/* align-items: flex-end; */
+	justify-content: flex-end;
+}
+.nav__list {
+	list-style-type: none;
+	display: flex;
+	column-gap: 1.5rem;
 }
 
 .content {
