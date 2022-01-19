@@ -145,18 +145,18 @@ a {
 	row-gap: 2.5rem;
 }
 .content:nth-child(4) .content__button-wrap {
-    padding: 1rem 3rem;
+	padding: 1rem 3rem;
 }
 .content:nth-child(4) .content__title,
 .content:nth-child(5) .content__title {
-    white-space: pre-line;
+	white-space: pre-line;
 }
 
 /* 
 * ------------------ NASA */
 .content:nth-child(5) {
-    background-image: url(../assets/images/nasa.webp);
-    row-gap: 2rem;
+	background-image: url(../assets/images/nasa.webp);
+	row-gap: 2rem;
 }
 .content:nth-child(5) .content__button-wrap {
 	padding: 1rem 3rem;
@@ -166,8 +166,8 @@ a {
 	font-size: 3rem;
 	letter-spacing: -2.5px;
 	text-shadow: 0 0 2px #555;
-    line-height: 3rem;
-    font-weight: 400;
+	line-height: 3rem;
+	font-weight: 400;
 }
 .content__subtitle {
 	font-size: 1.25rem;
@@ -182,4 +182,21 @@ a {
 .content__button {
 	font-family: "DINBold";
 	font-size: 0.87rem;
+}
+
+.footer {
+	font-size: 0.7rem;
+    line-height: 1.5rem;
+}
+.footer__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    height: 6.25rem;
+}
+.footer__copyright {
+    font-family: "DINRegular";
+    color: #979797;
 }
