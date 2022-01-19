@@ -1,0 +1,47 @@
+/* 
+* ---------------- Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+/* 
+* ----------------- Main CSS */
+body {
+    min-height: 100vh;
+}
+
+.content {
+    min-height: 100vh;
+    background-image: url(/assets/starlink.webp);
+    background-size: cover;
+}
+
