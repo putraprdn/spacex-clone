@@ -32,6 +32,20 @@ select {
   font: inherit;
 }
 
+/* 
+*------------ Font Face */
+@font-face {
+	font-family: "DINBold";
+	src: url(/assets/fonts/DINBold.ttf);
+}
+@font-face {
+	font-family: "DINMedium";
+	src: url(/assets/fonts/DINMedium.ttf);
+}
+@font-face {
+	font-family: "DINRegular";
+	src: url(/assets/fonts/DINRegular.ttf);
+}
 
 /* 
 * ----------------- Main CSS */
