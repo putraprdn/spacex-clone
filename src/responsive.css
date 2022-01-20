@@ -96,14 +96,14 @@
 
 	.content {
 		background-position: center;
-        row-gap: 1rem !important;
+		row-gap: 1rem !important;
 	}
 	.content__title {
 		font-size: 3rem;
 		white-space: unset !important;
 	}
 
-    .footer__list{
-        column-gap: 1.5rem;
-    }
+	.footer__list {
+		column-gap: 1.5rem;
+	}
 }
