@@ -200,7 +200,6 @@ a {
 	font-family: "DINBold";
 	font-size: 0.87rem;
 }
-
 .footer {
 	font-size: 0.7rem;
     line-height: 1.5rem;
@@ -216,4 +215,22 @@ a {
 .footer__copyright {
     font-family: "DINRegular";
     color: #979797;
+}
+.animated {
+	opacity: 0;
+	animation: 0.5s FadeInUp;
+	animation-fill-mode: both;
+	-webkit-animation-fill-mode: both;
+	/* -webkit-animation: .5s FadeInUp; */
+}
+.animated:nth-child(2){ animation-delay: .6s;}
+/* .animated a:nth-child(3){ animation-delay: 2s;} */
+@keyframes FadeInUp {
+	from {
+		transform: translate3d(0,40px,0);
+	}
+	to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
 }
