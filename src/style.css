@@ -128,6 +128,28 @@ a {
 	background-repeat: no-repeat;
 }
 
+/* ! FIXME: Animasi masih blm bener xixixi */
+.content__text-wrap {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.2rem;
+}
+.content__button-wrap {
+	width: fit-content;
+	border: 2px solid #fff;
+	padding: 1rem 4rem;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	background: linear-gradient(to top, white 50%, transparent 50%);
+	background-size: 100% 200%;
+}
+.content__button-wrap:hover {
+	background-position: bottom;
+	color: #000;
+	background-size: 100% 100%;
+	/* background-size: 100% 200%; */
+}
+
 /* 
 *---------------- Starlink */
 .content:nth-child(1) {
@@ -190,31 +212,31 @@ a {
 	font-size: 1.25rem;
 	font-family: "DINRegular";
 }
-.content__button-wrap {
-	width: fit-content;
-	border: 2px solid #fff;
-	padding: 1rem 4rem;
-	cursor: pointer;
-}
 .content__button {
 	font-family: "DINBold";
 	font-size: 0.87rem;
 }
 .footer {
-	font-size: 0.7rem;
-    line-height: 1.5rem;
-}
-.footer__list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 2rem;
-    height: 6.25rem;
+	font-size: 0.75rem;
+	line-height: 1.5rem;
 }
 .footer__copyright {
-    font-family: "DINRegular";
-    color: #979797;
+	padding: 0;
+}
+.footer__list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 2rem;
+	height: 6.25rem;
+}
+.footer__copyright {
+	font-family: "DINRegular";
+	color: #979797;
+}
+.footer__link:hover {
+	color: #979797;
 }
 .animated {
 	opacity: 0;
