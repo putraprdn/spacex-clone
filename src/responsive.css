@@ -2,25 +2,108 @@
 * ----------------- Responsive Goes Here */
 
 @media screen and (max-width: 1200px) {
-    html {
-        font-size: 15px;
-    }
+	html {
+		font-size: 15px;
+	}
+	.content {
+		padding-bottom: 3rem;
+	}
+	.content:nth-child(3) {
+		row-gap: 2rem;
+	}
 }
 
 @media screen and (max-width: 1024px) {
-    html {
-        font-size: 13px;
-    }
+	html {
+		font-size: 13px;
+	}
+	.nav {
+		font-size: 1.1rem;
+	}
+	.content__title {
+		font-size: 3.5rem;
+		line-height: 48px;
+	}
+	.content__button {
+		font-size: 1.075rem;
+		line-height: 2rem;
+	}
+	.footer {
+		font-size: 0.85rem;
+	}
+	.footer__list {
+		column-gap: 3.5rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
-    html {
-        font-size: 12px;
-    }
+	html {
+		font-size: 12px;
+	}
+
+	.nav {
+		align-items: center;
+		justify-content: center;
+	}
+	.nav__image-link {
+		flex-basis: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.nav__center {
+		display: none;
+	}
+	.nav__right .nav__item:first-child {
+		display: none;
+	}
+	.nav__right:last-child {
+		font-size: 16px;
+	}
+
+	.content {
+		row-gap: 2rem;
+	}
+	.content__title {
+		/* font-size: 3rem; */
+		line-height: 3.6rem;
+		/* width: min-content; */
+	}
+
+	.footer {
+		padding: 1.5rem 0;
+		font-size: 1rem;
+	}
+	.footer__list {
+		flex-wrap: wrap;
+		text-align: center;
+		row-gap: 0;
+	}
+	.footer__item:first-child {
+		flex-basis: 100%;
+		flex-shrink: 0;
+		flex-grow: 1;
+		align-self: center;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	html {
 		font-size: 11px;
 	}
+	br {
+		display: none;
+	}
+
+	.content {
+		background-position: center;
+        row-gap: 1rem !important;
+	}
+	.content__title {
+		font-size: 3rem;
+		white-space: unset !important;
+	}
+
+    .footer__list{
+        column-gap: 1.5rem;
+    }
 }
