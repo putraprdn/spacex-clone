@@ -15,9 +15,9 @@ _Currently in progress_
 
 -   [x] Main Content
 -   [ ] Active state
--   [ ] Small screen PC (1024px)
--   [ ] Tablet (768px)
--   [ ] Mobile (440px)
+-   [x] Small screen PC (1024px)
+-   [x] Tablet (768px)
+-   [x] Mobile (440px)
 
 ### Screenshot
 
