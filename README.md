@@ -13,7 +13,7 @@ The original website is [here.](https://www.spacex.com/) (it may changed).
 
 _Currently in progress_
 
--   [ ] Main Content
+-   [x] Main Content
 -   [ ] Active state
 -   [ ] Small screen PC (1024px)
 -   [ ] Tablet (768px)
