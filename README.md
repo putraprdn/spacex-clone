@@ -1,6 +1,6 @@
 # SpaceX Website Clone
 
-The original website is [here.](https://www.spacex.com/) (it may changed).
+The original website is [here.](https://www.spacex.com/) (it may have changed).
 
 ## Table of contents
 
